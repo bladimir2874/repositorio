@@ -1,0 +1,30 @@
+@import "variables";
+.navegacionPricipal {
+    display: flex;
+    /*habilita el flexbox,diseñado para alinear los elemnetose  los diseños*/
+    flex-direction: column;
+    /*para cuando se cierra la ventana se vea el menu en columnas*/
+}
+@media (min-width: 768px) {
+    .navegacionPricipal {
+        flex-direction: row;
+        justify-content: space-between;
+        /*distribulle los enlaces en la franja de navegacion*/
+    }
+}
+.navegacionPricipal a {
+    display: block;
+    text-align: center;
+    color: $blanco;
+    /*color de los enlaces de navegacion*/
+    text-decoration: none;
+    /*quita la lnea de abajo de los enlaces de navegacion*/
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 1rem;
+    /*ancho de la  barra verde y amarilla en la navegacion*/
+}
+.navegacionPricipal a:hover {
+    background-color: $primario;
+    color: $negro;
+}

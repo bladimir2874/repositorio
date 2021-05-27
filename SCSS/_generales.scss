@@ -1,0 +1,82 @@
+@import "variables";
+* {
+    margin: 0px;
+    padding: 0px;
+}
+@media (max-width: 768px) {
+    header, main, footer {
+        font-size: 13px;
+    }
+}    
+body {
+    font-family: $tipoFuente;
+    margin: 5px;
+}
+.fila-seccion {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 6%;
+}
+h6{
+    text-align: center;
+}
+div.fila-portafolio {
+    margin: 2% 0 2% 0;
+    position: relative;
+    z-index: -10;
+}
+p.texto-carrusel {
+    font-size: 1.8em;
+    color: $blanco;
+    background-color: rgba(0, 0, 0, .5);
+}
+.container{
+    text-align: center;
+}
+.fila-elemento {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.servicios {
+    scroll-snap-align: center;
+    scroll-snap-stop: always;
+}
+.servicios p{
+    text-align: justify;
+    font-size: 1.5rem;
+}
+@media (min-width:768px) {
+    .servicios {
+        display: grid;
+        grid-template-columns: 33.3% 33.3% 33.3%;
+        column-gap: 2rem;
+    }
+}
+.servicio {
+    text-align: center;
+}
+.servicio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.iconos {
+    display: flex;
+    height: 150px;
+    width: 150px;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: $primario;
+    border-radius: 50%;
+}
+.iconos i {
+    font-size: 2rem;
+    color: var(--oscuro);
+}

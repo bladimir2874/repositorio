@@ -1,0 +1,18 @@
+@import "variables";
+@mixin suscripcion {
+    border-radius: 5px;
+    background-color: $fondoSuscripcionLogin;
+    border: 2px solid #cacaca;
+}
+
+footer section {
+    @include suscripcion();
+}
+
+@mixin bgColor ($color) {
+    background-color: $color;
+}
+
+header {
+    @include bgColor($fondoHeaderFooter);
+}

@@ -1,0 +1,12 @@
+/* Main Index */
+@import "variables";
+article {
+    .article1:hover, .article2:hover {
+        transform: scale(1.01);
+    }
+}
+
+/* Main Login */
+.bgMain {
+    background-color: $fondoSuscripcionLogin;
+}

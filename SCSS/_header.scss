@@ -1,0 +1,24 @@
+@import "variables";
+nav {
+    background-color: #757689;
+    ul {
+        li {
+            a {
+                text-decoration: none;
+            }
+            a:hover {
+                background-color: #e6e6fa;
+            }
+        }
+    }
+}
+
+div {
+    a {
+        text-decoration: none;
+        color: $negro;
+    }
+    a:hover {
+        color: $negro;
+    }
+}
