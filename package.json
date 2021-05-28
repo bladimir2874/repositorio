@@ -10,9 +10,17 @@
   "author": "",
   "license": "ISC",
   "dependencies": {},
-  "description": "",
   "devDependencies": {
     "node-sass": "^5.0.0",
     "nodemon": "^2.0.7"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bladimir2874/repositorio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bladimir2874/repositorio/issues"
+  },
+  "homepage": "https://github.com/bladimir2874/repositorio#readme",
+  "description": ""
 }
