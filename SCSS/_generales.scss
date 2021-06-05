@@ -73,7 +73,7 @@ p.texto-carrusel {
     width: 150px;
     justify-content: space-evenly;
     align-items: center;
-    background-color: $primario;
+    background-image: linear-gradient($fondoHeaderFooter, #bdbdbd);
     border-radius: 50%;
 }
 .iconos i {

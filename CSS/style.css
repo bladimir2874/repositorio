@@ -78,7 +78,7 @@ p.texto-carrusel {
   width: 150px;
   justify-content: space-evenly;
   align-items: center;
-  background-color: #ffc107;
+  background-image: linear-gradient(#e6e6fa, #bdbdbd);
   border-radius: 50%; }
 
 .iconos i {
