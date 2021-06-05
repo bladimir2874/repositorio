@@ -1,4 +1,3 @@
-@charset "UTF-8";
 footer section {
   border-radius: 5px;
   background-color: #C6D0DA;
@@ -211,10 +210,19 @@ footer {
 
 .navegacionPricipal {
   display: flex;
-  /*habilita el flexbox,diseñado para alinear los elemnetose  los diseños*/
   flex-direction: column;
   /*para cuando se cierra la ventana se vea el menu en columnas*/ }
 
+/*
+.navegacionPricipal {
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}*/
 @media (min-width: 768px) {
   .navegacionPricipal {
     flex-direction: row;
