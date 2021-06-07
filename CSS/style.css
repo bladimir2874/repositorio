@@ -83,7 +83,17 @@ p.texto-carrusel {
 
 .iconos i {
   font-size: 2rem;
-  color: var(--oscuro); }
+  color: #000000; }
+
+.logo {
+  justify-self: start;
+  color: #000000; }
+
+.logo__nombre {
+  font-weight: 400; }
+
+.logo__bold {
+  font-weight: 700; }
 
 footer {
   background-image: linear-gradient(#e6e6fa, #bdbdbd); }
